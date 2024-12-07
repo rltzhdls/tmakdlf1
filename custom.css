@@ -1,0 +1,111 @@
+.main-text,.main-text p{
+    padding-left:0;
+    text-align:center
+
+}
+.main-text{
+    position:absolute;
+    top:0;
+    width:100%;
+    color:#fff;
+    padding-top:180px
+}
+.main-text p{
+    font-family:DNFForgedBlade!important
+}
+.main-text1:after{
+    
+}
+.main-text .main-text2:after{
+    content: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhl_TYTn3hRJlpUuYrHkQ6v0DI0NimUJkKlknoKri9Qnbi0AbLGvE4wZgKIguwrMsRW3ab261No9KoG9Yoi2a3uf3ldth2VYsXMr0gdjjxxqqD5QiA8R0vlI-_IB4xunvEJ88WHIGZIVqQZ3g1WOK5xdzLQI8RzCqxClSbD0Aa3ad1F0ZhDXem1A1dUZvxw/s16000/%EC%8A%A4%EB%A7%88%EC%9D%BC%EB%A1%9C%EA%B3%A02.png");
+    font-size: 51px;
+    text-shadow: #C38B61 1px 1px, #000 0px 0px, #000 1px 1px, #000 2px 2px, #000 3px 3px, #C38B61 4px 4px, #000 5px 5px;
+    color: #FAECC5;
+filter: drop-shadow(1px 1px 1px #000);
+
+
+}
+@keyframes neon-flicker{
+    0%{
+        text-shadow:0 0 10px rgba(102,37,.7),0 0 20px rgba(102,37,.7),0 0 30px rgba(102,37,.7)
+    }
+    100%{
+        text-shadow:0 0 20px rgba(102,37,.7),0 0 30px rgba(102,37,.7),0 0 40px rgba(102,37,.7)
+    }
+}
+
+.main-date {
+margin-top:40px;
+}
+
+.main-date span{
+
+    font-size:48px;
+    color:#fff;
+
+    word-break:keep-all;
+    word-wrap:break-word;
+
+   font-weight:bold;
+filter: drop-shadow(1px 1px 1px #000);
+
+}
+.section-promotion{
+    top:0;
+}
+.section-promotion .section-promotion__list{
+    height:760px!important
+}
+
+.section-promotion .section-promotion__list li{
+ top:0px;
+}
+@media screen and (max-width:1024px){
+.main-text,.main-text p{
+left: -20px;
+}
+    .main-text{
+        padding-top:0px !important;
+    }
+.main-text1 {
+
+}
+	.main-text1:after{
+	font-size:20px;	
+}
+    .main-text .main-text2:after {
+    font-size: 50px;
+    left: 200px;
+    position: absolute;
+    zoom: 40%;
+}
+
+.main-date {
+padding-top:120px
+}
+	.main-date span{
+font-size:15px;
+}
+    .section-promotion .section-promotion__list{
+        height:215px!important
+    }
+.section-promotion .section-promotion__list li{
+top:0px;
+}
+    .section-promotion{
+       top: 0 !important;
+        padding-top: 90px !important;
+    }
+    #showsidebar1 img,#showsidebar2 img ,#showsidebar3 img{
+        height:100px!important
+    }
+	#showsidebar3{
+        bottom:36%!important
+    }
+    #showsidebar2{
+        bottom:22%!important
+    }
+    #showsidebar1{
+        bottom:8%!important
+    }
+}
